@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { NavBar } from './navbar/Navbar';
-import { Home } from './home/Home';
+import { NavBar } from './components/navbar/Navbar';
+import { Home } from './components/home/Home';
 import { BrowserRouter, Route } from 'react-router-dom';
-import { About } from './about/About';
+import { About } from './components/about/About';
 
 class App extends Component {
   render() {
